@@ -15,7 +15,7 @@
   limitations under the License.
   -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="br.com.autodoc.output">
+    package="br.com.diegoferreiracaetano.sample.output">
 
     <application
         android:allowBackup="true"
@@ -24,7 +24,7 @@
 
         <uses-library android:name="com.google.android.things"/>
 
-        <activity android:name=".OutputActivity">
+        <activity android:name="br.com.diegoferreiracaetano.sample.output.OutputActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

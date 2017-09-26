@@ -1,15 +1,21 @@
-Android Things empty project template
+Android Things Sample Output Driver
 =====================================
 
-Use this empty project as a template for your Android Things project.
 
-NOTE: this is very similar to the code created by the Android Things Empty Activity wizard on Android Studio 3+. You can use either to bootstrap your Android Things project.
+This Android Things sample demonstrates how to use a out input
+UserDriver to listen to GPIO pin changes, generate and listen for key events.
+
 
 Pre-requisites
 --------------
 
 - Android Things compatible board
 - Android Studio 2.2+
+- [Rainbow Hat for Android Things](https://shop.pimoroni.com/products/rainbow-hat-for-android-things) or the following individual components:
+    - 2 LED
+    - 2 resistors
+    - jumper wires
+    - 1 breadboard
 
 
 Build and install
@@ -21,7 +27,7 @@ If you prefer to run on the command line, type
 
 ```bash
 ./gradlew installDebug
-adb shell am start com.example.androidthings.myproject/.MainActivity
+adb shell am start br.com.diegoferreiracaetano.sample.output/.OutputActivity
 ```
 
 License
